@@ -1,0 +1,38 @@
+{
+  "engine_version": "0.2.0",
+  "instance": "flow_jobs",
+  "environment": "flowshop",
+  "machines": 2,
+  "n_jobs": 3,
+  "method": "EDD",
+  "objective": "makespan",
+  "seed": 0,
+  "time_unit": "units",
+  "input": "data/flow_jobs.csv",
+  "operations": "data/flow_ops.csv",
+  "config_file": null,
+  "effective_parameters": {
+    "environment": "flowshop",
+    "input": "data/flow_jobs.csv",
+    "operations": "data/flow_ops.csv",
+    "machines": 2,
+    "method": [
+      "SPT",
+      "EDD"
+    ],
+    "objective": "makespan",
+    "sequence": null,
+    "machine_lists": null,
+    "output": "results/flow",
+    "time_unit": "units",
+    "seed": 0,
+    "show": false
+  },
+  "result_structure": [
+    "J1",
+    "J2",
+    "J3"
+  ],
+  "python": "3.14.0",
+  "platform": "Windows-11-10.0.26300-SP0"
+}

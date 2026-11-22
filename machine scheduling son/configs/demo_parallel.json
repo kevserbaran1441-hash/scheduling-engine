@@ -1,0 +1,10 @@
+{
+  "environment": "parallel",
+  "input": "data/demo.csv",
+  "machines": 3,
+  "method": ["SPT", "LPT", "EDD"],
+  "objective": "total_tardiness",
+  "time_unit": "dakika",
+  "seed": 1,
+  "output": "results/demo_parallel"
+}

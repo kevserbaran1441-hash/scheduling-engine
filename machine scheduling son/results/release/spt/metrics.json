@@ -1,0 +1,20 @@
+{
+  "instance": "demo_release",
+  "environment": "parallel",
+  "method": "SPT",
+  "objective": "makespan",
+  "objective_value": 35,
+  "feasible": true,
+  "violations": [],
+  "metrics": {
+    "makespan": 35,
+    "total_completion": 138,
+    "weighted_completion": 319,
+    "max_lateness": 0,
+    "total_tardiness": 0,
+    "weighted_tardiness": 0
+  },
+  "seed": 0,
+  "algorithm_runtime_s": 9.5e-05,
+  "end_to_end_runtime_s": 0.406697
+}

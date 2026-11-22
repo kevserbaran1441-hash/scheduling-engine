@@ -1,0 +1,51 @@
+{
+  "engine_version": "0.2.0",
+  "instance": "demo_release",
+  "environment": "parallel",
+  "machines": 3,
+  "n_jobs": 10,
+  "method": "LPT",
+  "objective": "makespan",
+  "seed": 0,
+  "time_unit": "units",
+  "input": "data/demo_release.csv",
+  "operations": null,
+  "config_file": null,
+  "effective_parameters": {
+    "environment": "parallel",
+    "input": "data/demo_release.csv",
+    "operations": null,
+    "machines": 3,
+    "method": [
+      "SPT",
+      "LPT"
+    ],
+    "objective": "makespan",
+    "sequence": null,
+    "machine_lists": null,
+    "output": "results/release",
+    "time_unit": "units",
+    "seed": 0,
+    "show": false
+  },
+  "result_structure": {
+    "M1": [
+      "J5",
+      "J1",
+      "J9"
+    ],
+    "M2": [
+      "J3",
+      "J4",
+      "J2",
+      "J6"
+    ],
+    "M3": [
+      "J7",
+      "J8",
+      "J10"
+    ]
+  },
+  "python": "3.14.0",
+  "platform": "Windows-11-10.0.26300-SP0"
+}

@@ -1,0 +1,53 @@
+{
+  "engine_version": "0.2.0",
+  "instance": "demo",
+  "environment": "parallel",
+  "machines": 3,
+  "n_jobs": 10,
+  "method": "LPT",
+  "objective": "total_tardiness",
+  "seed": 0,
+  "time_unit": "units",
+  "input": "data/demo.csv",
+  "operations": null,
+  "config_file": null,
+  "effective_parameters": {
+    "environment": "parallel",
+    "input": "data/demo.csv",
+    "operations": null,
+    "machines": 3,
+    "method": [
+      "SPT",
+      "LPT",
+      "EDD",
+      "WSPT"
+    ],
+    "objective": "total_tardiness",
+    "sequence": null,
+    "machine_lists": null,
+    "output": "results/demo",
+    "time_unit": "units",
+    "seed": 0,
+    "show": false
+  },
+  "result_structure": {
+    "M1": [
+      "J5",
+      "J8",
+      "J2",
+      "J10"
+    ],
+    "M2": [
+      "J9",
+      "J1",
+      "J4"
+    ],
+    "M3": [
+      "J3",
+      "J7",
+      "J6"
+    ]
+  },
+  "python": "3.14.0",
+  "platform": "Windows-11-10.0.26300-SP0"
+}

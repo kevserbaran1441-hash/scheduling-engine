@@ -1,0 +1,20 @@
+{
+  "instance": "flow_jobs",
+  "environment": "flowshop",
+  "method": "EDD",
+  "objective": "makespan",
+  "objective_value": 11,
+  "feasible": true,
+  "violations": [],
+  "metrics": {
+    "makespan": 11,
+    "total_completion": 26,
+    "weighted_completion": 26,
+    "max_lateness": 1,
+    "total_tardiness": 1,
+    "weighted_tardiness": 1
+  },
+  "seed": 0,
+  "algorithm_runtime_s": 5.7e-05,
+  "end_to_end_runtime_s": 0.14384
+}

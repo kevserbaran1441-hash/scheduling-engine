@@ -1,0 +1,20 @@
+{
+  "instance": "demo",
+  "environment": "parallel",
+  "method": "LPT",
+  "objective": "total_tardiness",
+  "objective_value": 46,
+  "feasible": true,
+  "violations": [],
+  "metrics": {
+    "makespan": 23,
+    "total_completion": 170,
+    "weighted_completion": 510,
+    "max_lateness": 17,
+    "total_tardiness": 46,
+    "weighted_tardiness": 189
+  },
+  "seed": 0,
+  "algorithm_runtime_s": 0.000103,
+  "end_to_end_runtime_s": 0.163166
+}

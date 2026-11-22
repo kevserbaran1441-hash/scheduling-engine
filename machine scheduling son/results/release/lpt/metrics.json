@@ -1,0 +1,20 @@
+{
+  "instance": "demo_release",
+  "environment": "parallel",
+  "method": "LPT",
+  "objective": "makespan",
+  "objective_value": 35,
+  "feasible": true,
+  "violations": [],
+  "metrics": {
+    "makespan": 35,
+    "total_completion": 166,
+    "weighted_completion": 466,
+    "max_lateness": 10,
+    "total_tardiness": 19,
+    "weighted_tardiness": 95
+  },
+  "seed": 0,
+  "algorithm_runtime_s": 9.3e-05,
+  "end_to_end_runtime_s": 0.196686
+}

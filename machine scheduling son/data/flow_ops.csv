@@ -1,0 +1,7 @@
+job_id,machine_id,processing_time
+J1,M1,3
+J1,M2,2
+J2,M1,2
+J2,M2,4
+J3,M1,4
+J3,M2,1
